@@ -1,6 +1,6 @@
 # Bag of Visual Words
 
-This repository contains a simple implementation of a descriptors to bag of words converter. The file contains functions on converting image descriptors to bag of words and training a k-NN to find the nearest neighbor of a particular image.
+This repository contains a simple implementation of a descriptors to bag of words converter. The file contains functions on converting image descriptors to bag of words and training a k-NN to find the similar images based on bag of words.
 
 ## Functions
 
