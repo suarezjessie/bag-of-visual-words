@@ -152,7 +152,7 @@ image_descriptors = image_descriptors1 + image_descriptors2
 # generate the clusters of the patches
 clusters = create_patch_clusters(np.vstack(image_descriptors), num_clusters=100)
 
-# convert images into bage of visual words
+# convert images into bag of visual words
 image_bows = convert_images_to_bows(image_descriptors, clusters)
 
 # normalize the bag of words for k-nearest neighbor
